@@ -5,5 +5,5 @@ RUN \
 	yum clean metadata && \
 	yum -y install epel-release && \
 	yum clean metadata && \
-	yum -y install which tar rpm-build yum-utils python-argparse python-yaml gcc gcc-c++ createrepo jq && \
+	yum -y install which tar rpm-build yum-utils python-argparse python-yaml gcc gcc-c++ createrepo jq krb5-workstation openssh-clients && \
 	yum clean all
